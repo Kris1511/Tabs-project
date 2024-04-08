@@ -7,7 +7,7 @@ const Duties = ({ duties }) => {
   return (
     <div>
       {duties.map((duty) => {
-        const id = uuidv4(); // we are using new id
+        const id = uuidv4(); // we are using new id called "uuid"
         console.log(id);
         return (
           <div key={id} className="job-desc">
